@@ -1,31 +1,60 @@
 #!/usr/bin/env bash
+set -e
+
+olint_usage() {
+  echo "Usage: olint command"
+  exit 1
+}
+
+[[ -z "$1" ]] && olint_usage
+
+index=${OLINT_INDEX:-0}
+olint_log="olint.${index}.log"
+
+export OLINT_INDEX=$((index + 1))
 
 capture_stdout() {
   while IFS= read -r line || [ "$line" ]; do
     time=$(date +%s%N)
     echo "$line"
-    echo "O ${time} ${line}" >> output
-  done
+    echo "O ${time} ${line}" >> "${olint_log}"
+  done && true
 }
 
 capture_stderr() {
   while IFS= read -r line || [ "$line" ]; do
     time=$(date +%s%N)
     >&2 echo "$line"
-    echo "E ${time} ${line}" >> output
-  done
+    echo "E ${time} ${line}" >> "olint.${index}.log"
+  done && true
 }
-
-[ -f output ] && rm -f output
 
 olint_exec() {
   #echo "[olint] Open stdout."
   #>&2 echo "[olint] Open stderr."
-  eval "$@"
+  eval "$@ && true"
   #echo "[olint] Close stdout."
   #>&2 echo "[olint] Close stderr."
 }
 
-olint_exec "$@" > >(capture_stdout) 2> >(capture_stderr)
+olint_input() {
+  a=1
+}
+
+olint_check() {
+  echo "============================================================="
+}
+
+input_file="$1.input"
+
+[ -f "olint.${index}.log" ] && rm -f "olint.${index}.log"
+
+if [[ -f "${input_file}" ]]; then
+  olint_exec "$@" && true < <(olint_input) > >(capture_stdout) 2> >(capture_stderr)
+else
+  olint_exec "$@" && true > >(capture_stdout) 2> >(capture_stderr)
+fi
 
 sleep 1
+
+olint_check
