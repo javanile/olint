@@ -1,0 +1,25 @@
+{
+  "files": [
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/post-update.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "1"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/pre-applypatch.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "4"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/prepare-commit-msg.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "4"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/pre-commit.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "9"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/pre-rebase.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "43"},
+    {"file": "/home/francesco/Develop/Javanile/olint/olint", "percent_covered": "14.81", "covered_lines": "4", "total_lines": "27"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/pre-receive.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "8"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/pre-merge-commit.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "4"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.idea/.gitignore", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "5"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/commit-msg.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "4"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/applypatch-msg.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "4"},
+    {"file": "/home/francesco/Develop/Javanile/olint/script1.sh", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "4"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/pre-push.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "14"},
+    {"file": "/home/francesco/Develop/Javanile/olint/.git/hooks/update.sample", "percent_covered": "0.00", "covered_lines": "0", "total_lines": "49"}
+  ],
+  "percent_covered": "2.22",
+  "covered_lines": 4,
+  "total_lines": 180,
+  "percent_low": 25,
+  "percent_high": 75,
+  "command": "shellspec spec",
+  "date": "2021-04-06 02:21:08"
+}
