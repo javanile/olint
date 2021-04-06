@@ -61,5 +61,5 @@ var data = {lines:[
 {"lineNum":"   60","line":"olint_check","class":"lineNoCov","hits":"0","possible_hits":"0",},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "shellspec spec", "date" : "2021-04-06 02:21:08", "instrumented" : 27, "covered" : 4,};
+var header = { "command" : "shellspec spec", "date" : "2021-04-06 02:25:40", "instrumented" : 27, "covered" : 4,};
 var merged_data = [];
