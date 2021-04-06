@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
-<coverage line-rate="0.078" lines-covered="4" lines-valid="51" branch-rate="1.0" branches-covered="1.0" branches-rate="1.0" complexity="1.0" version="1.9" timestamp="1617668740">
+<coverage line-rate="0.148" lines-covered="4" lines-valid="27" branch-rate="1.0" branches-covered="1.0" branches-rate="1.0" complexity="1.0" version="1.9" timestamp="1617668978">
 	<sources>
-		<source>/home/francesco/Develop/Javanile/olint</source>
+		<source>/home/francesco/Develop/Javanile/olint/olint/</source>
 	</sources>
 	<packages>
-		<package name="shellspec spec" line-rate="0.078" lines-covered="4" lines-valid="51" branch-rate="1.0" complexity="1.0">
+		<package name="shellspec spec" line-rate="0.148" lines-covered="4" lines-valid="27" branch-rate="1.0" complexity="1.0">
 			<classes>
-				<class name="olint" filename="olint" branch-rate="1.0" complexity="1.0" line-rate="0.148">
+				<class name="olint" filename="/home/francesco/Develop/Javanile/olint/olint" branch-rate="1.0" complexity="1.0" line-rate="0.148">
 					<lines>
 						<line number="2" hits="1"/>
 						<line number="5" hits="1"/>
@@ -36,62 +36,6 @@
 						<line number="55" hits="0"/>
 						<line number="58" hits="0"/>
 						<line number="60" hits="0"/>
-					</lines>
-				</class>
-				<class name="_shellspec" filename=".shellspec" branch-rate="1.0" complexity="1.0" line-rate="0.000">
-					<lines>
-						<line number="1" hits="0"/>
-						<line number="2" hits="0"/>
-						<line number="4" hits="0"/>
-						<line number="5" hits="0"/>
-					</lines>
-				</class>
-				<class name="olint_spec_sh" filename="spec/olint_spec.sh" branch-rate="1.0" complexity="1.0" line-rate="0.000">
-					<lines>
-						<line number="1" hits="0"/>
-						<line number="2" hits="0"/>
-						<line number="3" hits="0"/>
-						<line number="4" hits="0"/>
-						<line number="5" hits="0"/>
-						<line number="6" hits="0"/>
-						<line number="7" hits="0"/>
-					</lines>
-				</class>
-				<class name="olint_sh_input" filename="spec/olint.sh.input" branch-rate="1.0" complexity="1.0" line-rate="0.000">
-					<lines>
-						<line number="3" hits="0"/>
-					</lines>
-				</class>
-				<class name="script1_sh" filename="spec/fixtures/script1.sh" branch-rate="1.0" complexity="1.0" line-rate="0.000">
-					<lines>
-						<line number="3" hits="0"/>
-						<line number="4" hits="0"/>
-						<line number="5" hits="0"/>
-						<line number="7" hits="0"/>
-					</lines>
-				</class>
-				<class name="olint_sh" filename="spec/olint.sh" branch-rate="1.0" complexity="1.0" line-rate="0.000">
-					<lines>
-						<line number="3" hits="0"/>
-					</lines>
-				</class>
-				<class name="spec_helper_sh" filename="spec/spec_helper.sh" branch-rate="1.0" complexity="1.0" line-rate="0.000">
-					<lines>
-						<line number="12" hits="0"/>
-						<line number="17" hits="0"/>
-						<line number="23" hits="0"/>
-					</lines>
-				</class>
-				<class name="bash_helper_debug_trap_sh" filename="coverage/bash-helper-debug-trap.sh" branch-rate="1.0" complexity="1.0" line-rate="0.000">
-					<lines>
-						<line number="3" hits="0"/>
-						<line number="4" hits="0"/>
-						<line number="5" hits="0"/>
-					</lines>
-				</class>
-				<class name="bash_helper_sh" filename="coverage/bash-helper.sh" branch-rate="1.0" complexity="1.0" line-rate="0.000">
-					<lines>
-						<line number="4" hits="0"/>
 					</lines>
 				</class>
 			</classes>

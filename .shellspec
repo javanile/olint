@@ -4,4 +4,4 @@
 ## Default kcov (coverage) options
 --kcov
 --kcov-options "--include-pattern=.sh,olint"
- --kcov-options "--exclude-pattern=/.shellspec,/spec/,/coverage/,/report/,/.git/"
+--kcov-options "--exclude-pattern=/.shellspec,/spec/,/coverage/,/report/,/.git/,/.idea/"
